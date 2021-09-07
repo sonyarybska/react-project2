@@ -1,0 +1,24 @@
+.genres {
+    display: flex;
+    column-gap: 2px;
+    padding: 10px;
+    font-size: 17px;
+    align-items: center;
+    justify-content: center;
+}
+
+.genres a {
+    text-decoration: none;
+}
+
+.badge {
+    border-radius: 20%;
+    background-color: #92eaf8;
+    color: black;
+    padding: 3px;
+}
+
+.dark-badge {
+    background-color: #043e72;
+    color: white;
+}

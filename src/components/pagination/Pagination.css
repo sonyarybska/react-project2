@@ -1,0 +1,14 @@
+.pages{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   column-gap: 10px;
+
+}
+.pages button{
+   background-color: #92eaf8;;
+}
+.dark-pages button{
+   background-color: #043e72;
+   color: white;
+}

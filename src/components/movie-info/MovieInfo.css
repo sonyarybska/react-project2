@@ -1,0 +1,98 @@
+.main {
+    width: 1300px;
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.dark-main {
+    background-color: #119bde;
+}
+
+.photo_container {
+    height: 600px;
+}
+
+.darker {
+    background-color: black;
+    position: absolute;
+    width: 1100px;
+}
+
+.back-photo img {
+    opacity: 0.5;
+    z-index: 1;
+    height: 600px;
+    width: 1100px;
+}
+
+
+.poster {
+    width: 1000px;
+    position: relative;
+    z-index: 20;
+    left: 50px;
+    top: 120px;
+    display: flex;
+    align-items: flex-end;
+    column-gap: 30px;
+
+}
+
+.poster img {
+    width: 300px;
+    border: 5px solid black;
+
+}
+
+.poster div {
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.poster p {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.info {
+    display: flex;
+    gap: 50px;
+}
+
+.dark-info {
+    background-color: #0a3465;
+    color: white;
+}
+
+.overview {
+    width: 900px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.overview span {
+    font-weight: 700;
+}
+
+.facts {
+    width: 300px;
+}
+
+
+.facts div {
+    width: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
